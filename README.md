@@ -103,17 +103,16 @@ The PIN check is implemented in client-side JavaScript for demonstration purpose
 
 ## Screenshots
 
-_Add project screenshots or a short demo GIF here._
+_Add your own screenshots or a short demo GIF at the paths below. These are placeholders only; no screenshots are included in the repository yet._
 
-| Main screen | Payment confirmation |
+| Screenshot | File to add |
 |---|---|
-| `![Hii Pay main screen](docs/screenshots/main-screen.png)` | `![Payment confirmation](docs/screenshots/payment-confirmation.png)` |
+| Main application screen | `docs/screenshots/main-screen.png` |
+| Payment confirmation | `docs/screenshots/payment-confirmation.png` |
+| Demo PIN screen | `docs/screenshots/pin-screen.png` |
+| QR scanner | `docs/screenshots/qr-scanner.png` |
 
-| PIN screen | QR scanner |
-|---|---|
-| `![Demo PIN screen](docs/screenshots/pin-screen.png)` | `![QR scanner](docs/screenshots/qr-scanner.png)` |
-
-_To display these images, add your own screenshots at the matching paths under `docs/screenshots/`, or update the paths to match your image filenames._
+_After adding the image files, embed them here using Markdown image syntax, for example: `![Hii Pay main screen](docs/screenshots/main-screen.png)`._
 
 ## Future enhancements
 
