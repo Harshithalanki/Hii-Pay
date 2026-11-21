@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hii Pay</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="app">
+        <header>
+            <h1>Hii Pay</h1>
+            <p>Simple payments. Easy conversations.</p>
+        </header>
+
+        <main>
+            <h2>How would you like to pay?</h2>
+            <div class="language-selector">
+    <button id="englishBtn" class="active">English</button>
+    <button id="teluguBtn">తెలుగు</button>
+</div>
+            <p class="subtitle">Speak or type your payment request</p>
+
+            
+<div class="actions">
+    <button id="voiceBtn" class="voice-btn">
+        🎙️
+        <span>Speak</span>
+    </button>
+
+    <button id="keyboardBtn" class="keyboard-btn">
+        ⌨️
+        <span>Type</span>
+    </button>
+</div>
+
+<div class="qr-section">
+    <button id="qrBtn" class="qr-btn">
+        <span>▦</span>
+        Scan QR Code
+    </button>
+
+    <div id="qrReader" class="hidden"></div>
+    <p id="qrMessage"></p>
+</div>
+
+            <div id="typingArea" class="typing-area hidden">
+                <input
+                    type="text"
+                    id="paymentInput"
+                    placeholder="Enter your payment request"
+                >
+                <button id="sendBtn">Submit</button>
+            </div>
+
+            <div id="confirmationArea" class="confirmation-area hidden">
+    <h3 id="confirmationText"></h3>
+    <p>Is this recipient and amount correct?</p>
+
+    <button id="confirmBtn">Yes, confirm</button>
+    <button id="cancelBtn">No, cancel</button>
+</div>
+<div id="pinArea" class="pin-area hidden">
+    <h3>Enter your PIN</h3>
+    <p>Enter your 4-digit demo PIN</p>
+
+    <input
+        type="password"
+        id="pinInput"
+        maxlength="4"
+        inputmode="numeric"
+        placeholder="••••"
+    >
+
+    <div class="number-pad">
+        <button class="number-btn">1</button>
+        <button class="number-btn">2</button>
+        <button class="number-btn">3</button>
+        <button class="number-btn">4</button>
+        <button class="number-btn">5</button>
+        <button class="number-btn">6</button>
+        <button class="number-btn">7</button>
+        <button class="number-btn">8</button>
+        <button class="number-btn">9</button>
+        <button id="deletePin">⌫</button>
+        <button class="number-btn">0</button>
+        <button id="clearPin">C</button>
+    </div>
+
+    <button id="verifyPin">Verify PIN</button>
+</div>
+
+<p id="message" aria-live="polite"></p>
+        </main>
+    </div>
+
+    <script src="https://unpkg.com/html5-qrcode"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
