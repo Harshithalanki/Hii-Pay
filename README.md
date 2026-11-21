@@ -103,16 +103,23 @@ The PIN check is implemented in client-side JavaScript for demonstration purpose
 
 ## Screenshots
 
-_Add your own screenshots or a short demo GIF at the paths below. These are placeholders only; no screenshots are included in the repository yet._
+The following screenshots show the current Hii Pay prototype interface and its main demo interactions.
 
-| Screenshot | File to add |
-|---|---|
-| Main application screen | `docs/screenshots/main-screen.png` |
-| Payment confirmation | `docs/screenshots/payment-confirmation.png` |
-| Demo PIN screen | `docs/screenshots/pin-screen.png` |
-| QR scanner | `docs/screenshots/qr-scanner.png` |
+### 1. Home screen
 
-_After adding the image files, embed them here using Markdown image syntax, for example: `![Hii Pay main screen](docs/screenshots/main-screen.png)`._
+![Hii Pay home screen](main-screen.png)
+
+### 2. Payment confirmation
+
+![Hii Pay payment confirmation](payment-confirmation.png)
+
+### 3. Demo PIN screen
+
+![Hii Pay demo PIN screen](pin-screen.png)
+
+### 4. QR scanner
+
+![Hii Pay QR scanner](qr-scanner.png)
 
 ## Future enhancements
 
